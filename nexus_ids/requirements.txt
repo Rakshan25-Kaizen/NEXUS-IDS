@@ -1,0 +1,33 @@
+# NEXUS-IDS Requirements
+# All dependencies pinned for reproducible builds.
+# Core Data Science
+pandas==2.2.0
+numpy==1.26.4
+scikit-learn==1.4.0
+
+# Gradient Boosting
+xgboost==2.0.3
+
+# Deep Learning (Autoencoder)
+torch==2.2.0
+
+# Graph Intelligence
+networkx==3.2.1
+
+# Explainability
+shap
+
+# Visualisation & Dashboard
+streamlit==1.30.0
+plotly==5.18.0
+matplotlib==3.8.2
+seaborn==0.13.1
+
+# API
+fastapi==0.109.0
+uvicorn==0.27.0
+pydantic==2.5.3
+
+# Utilities
+joblib==1.3.2
+requests==2.31.0

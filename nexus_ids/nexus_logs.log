@@ -1,0 +1,466 @@
+[04:29:09] SYSTEM: NEXUS-IDS SOC Platform initialized
+[04:29:09] SYSTEM: Detection pipeline: RF + Autoencoder + Trust Engine
+[04:29:09] SYSTEM: Models loaded successfully
+[04:29:09] System ready — awaiting analysis
+[04:29:10] Model inference executed on 125,973 records
+[04:29:18] Node 192.168.2.221 trust score updated: 1.000 → 0.446
+[04:29:18] Node 192.168.4.35 trust score updated: 1.000 → 0.524
+[04:29:18] Node 10.0.19.215 trust score updated: 1.000 → 0.787
+[04:29:18] DOS anomaly detected on node 10.0.4.104 (score=0.9080)
+[04:29:18] Node 10.0.4.104 trust score updated: 1.000 → 0.132
+[04:29:18] DOS anomaly detected on node 192.168.8.72 (score=0.9123)
+[04:29:18] Node 192.168.8.72 trust score updated: 1.000 → 0.194
+[04:29:18] DOS anomaly detected on node 192.168.6.143 (score=0.9230)
+[04:29:18] Node 192.168.6.143 trust score updated: 1.000 → 0.228
+[04:29:18] Node 10.0.16.15 trust score updated: 1.000 → 0.477
+[04:29:18] Node 192.168.6.229 trust score updated: 1.000 → 0.477
+[04:29:18] Node 10.0.9.167 trust score updated: 1.000 → 0.492
+[04:29:18] PROBE anomaly detected on node 192.168.4.77 (score=0.9746)
+[04:29:18] Node 192.168.4.77 trust score updated: 1.000 → 0.080
+[04:29:25] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[04:38:25] Model inference executed on 125,973 records
+[04:38:34] Node 192.168.2.221 trust score updated: 1.000 → 0.446
+[04:38:34] Node 192.168.4.35 trust score updated: 1.000 → 0.524
+[04:38:34] Node 10.0.19.215 trust score updated: 1.000 → 0.787
+[04:38:34] DOS anomaly detected on node 10.0.4.104 (score=0.9080)
+[04:38:34] Node 10.0.4.104 trust score updated: 1.000 → 0.132
+[04:38:34] DOS anomaly detected on node 192.168.8.72 (score=0.9123)
+[04:38:34] Node 192.168.8.72 trust score updated: 1.000 → 0.194
+[04:38:34] DOS anomaly detected on node 192.168.6.143 (score=0.9230)
+[04:38:34] Node 192.168.6.143 trust score updated: 1.000 → 0.228
+[04:38:34] Node 10.0.16.15 trust score updated: 1.000 → 0.477
+[04:38:34] Node 192.168.6.229 trust score updated: 1.000 → 0.477
+[04:38:34] Node 10.0.9.167 trust score updated: 1.000 → 0.492
+[04:38:34] PROBE anomaly detected on node 192.168.4.77 (score=0.9746)
+[04:38:34] Node 192.168.4.77 trust score updated: 1.000 → 0.080
+[04:38:47] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[04:38:49] Model inference executed on 125,973 records
+[04:38:56] Node 192.168.2.221 trust score updated: 1.000 → 0.446
+[04:38:56] Node 192.168.4.35 trust score updated: 1.000 → 0.524
+[04:38:56] Node 10.0.19.215 trust score updated: 1.000 → 0.787
+[04:38:56] DOS anomaly detected on node 10.0.4.104 (score=0.9080)
+[04:38:56] Node 10.0.4.104 trust score updated: 1.000 → 0.132
+[04:38:56] DOS anomaly detected on node 192.168.8.72 (score=0.9123)
+[04:38:56] Node 192.168.8.72 trust score updated: 1.000 → 0.194
+[04:38:56] DOS anomaly detected on node 192.168.6.143 (score=0.9230)
+[04:38:56] Node 192.168.6.143 trust score updated: 1.000 → 0.228
+[04:38:56] Node 10.0.16.15 trust score updated: 1.000 → 0.477
+[04:38:56] Node 192.168.6.229 trust score updated: 1.000 → 0.477
+[04:38:56] Node 10.0.9.167 trust score updated: 1.000 → 0.492
+[04:38:56] PROBE anomaly detected on node 192.168.4.77 (score=0.9746)
+[04:38:56] Node 192.168.4.77 trust score updated: 1.000 → 0.080
+[04:39:09] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[04:42:03] Model inference executed on 125,973 records
+[04:42:12] Node 192.168.2.221 trust score updated: 1.000 → 0.446
+[04:42:12] Node 192.168.4.35 trust score updated: 1.000 → 0.524
+[04:42:12] Node 10.0.19.215 trust score updated: 1.000 → 0.787
+[04:42:12] DOS anomaly detected on node 10.0.4.104 (score=0.9080)
+[04:42:12] Node 10.0.4.104 trust score updated: 1.000 → 0.132
+[04:42:12] DOS anomaly detected on node 192.168.8.72 (score=0.9123)
+[04:42:12] Node 192.168.8.72 trust score updated: 1.000 → 0.194
+[04:42:12] DOS anomaly detected on node 192.168.6.143 (score=0.9230)
+[04:42:12] Node 192.168.6.143 trust score updated: 1.000 → 0.228
+[04:42:12] Node 10.0.16.15 trust score updated: 1.000 → 0.477
+[04:42:12] Node 192.168.6.229 trust score updated: 1.000 → 0.477
+[04:42:12] Node 10.0.9.167 trust score updated: 1.000 → 0.492
+[04:42:12] PROBE anomaly detected on node 192.168.4.77 (score=0.9746)
+[04:42:12] Node 192.168.4.77 trust score updated: 1.000 → 0.080
+[04:42:26] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[04:42:28] Model inference executed on 125,973 records
+[04:42:36] Node 192.168.2.221 trust score updated: 1.000 → 0.446
+[04:42:36] Node 192.168.4.35 trust score updated: 1.000 → 0.524
+[04:42:36] Node 10.0.19.215 trust score updated: 1.000 → 0.787
+[04:42:36] DOS anomaly detected on node 10.0.4.104 (score=0.9080)
+[04:42:36] Node 10.0.4.104 trust score updated: 1.000 → 0.132
+[04:42:36] DOS anomaly detected on node 192.168.8.72 (score=0.9123)
+[04:42:36] Node 192.168.8.72 trust score updated: 1.000 → 0.194
+[04:42:36] DOS anomaly detected on node 192.168.6.143 (score=0.9230)
+[04:42:36] Node 192.168.6.143 trust score updated: 1.000 → 0.228
+[04:42:36] Node 10.0.16.15 trust score updated: 1.000 → 0.477
+[04:42:36] Node 192.168.6.229 trust score updated: 1.000 → 0.477
+[04:42:36] Node 10.0.9.167 trust score updated: 1.000 → 0.492
+[04:42:36] PROBE anomaly detected on node 192.168.4.77 (score=0.9746)
+[04:42:36] Node 192.168.4.77 trust score updated: 1.000 → 0.080
+[04:42:49] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[04:44:26] Model inference executed on 125,973 records
+[04:44:36] Node 192.168.2.221 trust score updated: 1.000 → 0.446
+[04:44:36] Node 192.168.4.35 trust score updated: 1.000 → 0.524
+[04:44:36] Node 10.0.19.215 trust score updated: 1.000 → 0.787
+[04:44:36] DOS anomaly detected on node 10.0.4.104 (score=0.9080)
+[04:44:36] Node 10.0.4.104 trust score updated: 1.000 → 0.132
+[04:44:36] DOS anomaly detected on node 192.168.8.72 (score=0.9123)
+[04:44:36] Node 192.168.8.72 trust score updated: 1.000 → 0.194
+[04:44:36] DOS anomaly detected on node 192.168.6.143 (score=0.9230)
+[04:44:36] Node 192.168.6.143 trust score updated: 1.000 → 0.228
+[04:44:36] Node 10.0.16.15 trust score updated: 1.000 → 0.477
+[04:44:36] Node 192.168.6.229 trust score updated: 1.000 → 0.477
+[04:44:36] Node 10.0.9.167 trust score updated: 1.000 → 0.492
+[04:44:36] PROBE anomaly detected on node 192.168.4.77 (score=0.9746)
+[04:44:36] Node 192.168.4.77 trust score updated: 1.000 → 0.080
+[04:44:54] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[04:44:58] Model inference executed on 125,973 records
+[04:45:08] Node 192.168.2.221 trust score updated: 1.000 → 0.446
+[04:45:08] Node 192.168.4.35 trust score updated: 1.000 → 0.524
+[04:45:08] Node 10.0.19.215 trust score updated: 1.000 → 0.787
+[04:45:08] DOS anomaly detected on node 10.0.4.104 (score=0.9080)
+[04:45:08] Node 10.0.4.104 trust score updated: 1.000 → 0.132
+[04:45:08] DOS anomaly detected on node 192.168.8.72 (score=0.9123)
+[04:45:08] Node 192.168.8.72 trust score updated: 1.000 → 0.194
+[04:45:08] DOS anomaly detected on node 192.168.6.143 (score=0.9230)
+[04:45:08] Node 192.168.6.143 trust score updated: 1.000 → 0.228
+[04:45:08] Node 10.0.16.15 trust score updated: 1.000 → 0.477
+[04:45:08] Node 192.168.6.229 trust score updated: 1.000 → 0.477
+[04:45:08] Node 10.0.9.167 trust score updated: 1.000 → 0.492
+[04:45:08] PROBE anomaly detected on node 192.168.4.77 (score=0.9746)
+[04:45:08] Node 192.168.4.77 trust score updated: 1.000 → 0.080
+[04:45:26] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[05:02:46] SYSTEM: PDF security report generated
+[05:11:32] Model inference executed on 125,973 records
+[05:11:36] Node 192.168.2.221 trust score updated: 1.000 → 0.446
+[05:11:36] Node 192.168.4.35 trust score updated: 1.000 → 0.524
+[05:11:36] Node 10.0.19.215 trust score updated: 1.000 → 0.787
+[05:11:36] DOS anomaly detected on node 10.0.4.104 (score=0.9080)
+[05:11:36] Node 10.0.4.104 trust score updated: 1.000 → 0.132
+[05:11:36] DOS anomaly detected on node 192.168.8.72 (score=0.9123)
+[05:11:36] Node 192.168.8.72 trust score updated: 1.000 → 0.194
+[05:11:36] DOS anomaly detected on node 192.168.6.143 (score=0.9230)
+[05:11:36] Node 192.168.6.143 trust score updated: 1.000 → 0.228
+[05:11:36] Node 10.0.16.15 trust score updated: 1.000 → 0.477
+[05:11:36] Node 192.168.6.229 trust score updated: 1.000 → 0.477
+[05:11:36] Node 10.0.9.167 trust score updated: 1.000 → 0.492
+[05:11:36] PROBE anomaly detected on node 192.168.4.77 (score=0.9746)
+[05:11:36] Node 192.168.4.77 trust score updated: 1.000 → 0.080
+[05:11:45] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[06:20:13] SYSTEM: PDF security report generated
+[06:54:45] Model inference executed on 125,973 records
+[06:54:54] Node 192.168.2.221 trust score updated: 1.000 → 0.446
+[06:54:54] Node 192.168.4.35 trust score updated: 1.000 → 0.524
+[06:54:54] Node 10.0.19.215 trust score updated: 1.000 → 0.787
+[06:54:54] DOS anomaly detected on node 10.0.4.104 (score=0.9080)
+[06:54:54] Node 10.0.4.104 trust score updated: 1.000 → 0.132
+[06:54:54] DOS anomaly detected on node 192.168.8.72 (score=0.9123)
+[06:54:54] Node 192.168.8.72 trust score updated: 1.000 → 0.194
+[06:54:54] DOS anomaly detected on node 192.168.6.143 (score=0.9230)
+[06:54:54] Node 192.168.6.143 trust score updated: 1.000 → 0.228
+[06:54:54] Node 10.0.16.15 trust score updated: 1.000 → 0.477
+[06:54:54] Node 192.168.6.229 trust score updated: 1.000 → 0.477
+[06:54:54] Node 10.0.9.167 trust score updated: 1.000 → 0.492
+[06:54:54] PROBE anomaly detected on node 192.168.4.77 (score=0.9746)
+[06:54:54] Node 192.168.4.77 trust score updated: 1.000 → 0.080
+[06:55:12] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[07:13:17] Model inference executed on 125,973 records
+[07:13:20] Node 192.168.2.221 trust score updated: 1.000 → 0.446
+[07:13:20] Node 192.168.4.35 trust score updated: 1.000 → 0.524
+[07:13:20] Node 10.0.19.215 trust score updated: 1.000 → 0.787
+[07:13:20] DOS anomaly detected on node 10.0.4.104 (score=0.9080)
+[07:13:20] Node 10.0.4.104 trust score updated: 1.000 → 0.132
+[07:13:20] DOS anomaly detected on node 192.168.8.72 (score=0.9123)
+[07:13:20] Node 192.168.8.72 trust score updated: 1.000 → 0.194
+[07:13:20] DOS anomaly detected on node 192.168.6.143 (score=0.9230)
+[07:13:20] Node 192.168.6.143 trust score updated: 1.000 → 0.228
+[07:13:20] Node 10.0.16.15 trust score updated: 1.000 → 0.477
+[07:13:20] Node 192.168.6.229 trust score updated: 1.000 → 0.477
+[07:13:20] Node 10.0.9.167 trust score updated: 1.000 → 0.492
+[07:13:20] PROBE anomaly detected on node 192.168.4.77 (score=0.9746)
+[07:13:20] Node 192.168.4.77 trust score updated: 1.000 → 0.080
+[07:13:37] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[07:14:21] Model inference executed on 125,973 records
+[07:14:24] Node 192.168.2.221 trust score updated: 1.000 → 0.446
+[07:14:24] Node 192.168.4.35 trust score updated: 1.000 → 0.524
+[07:14:24] Node 10.0.19.215 trust score updated: 1.000 → 0.787
+[07:14:24] DOS anomaly detected on node 10.0.4.104 (score=0.9080)
+[07:14:24] Node 10.0.4.104 trust score updated: 1.000 → 0.132
+[07:14:24] DOS anomaly detected on node 192.168.8.72 (score=0.9123)
+[07:14:24] Node 192.168.8.72 trust score updated: 1.000 → 0.194
+[07:14:24] DOS anomaly detected on node 192.168.6.143 (score=0.9230)
+[07:14:24] Node 192.168.6.143 trust score updated: 1.000 → 0.228
+[07:14:24] Node 10.0.16.15 trust score updated: 1.000 → 0.477
+[07:14:24] Node 192.168.6.229 trust score updated: 1.000 → 0.477
+[07:14:24] Node 10.0.9.167 trust score updated: 1.000 → 0.492
+[07:14:24] PROBE anomaly detected on node 192.168.4.77 (score=0.9746)
+[07:14:24] Node 192.168.4.77 trust score updated: 1.000 → 0.080
+[07:14:35] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[07:15:11] SYSTEM: PDF security report generated
+[07:18:33] Model inference executed on 125,973 records
+[07:18:33] Model inference executed on 125,973 records
+[07:18:43] Node 10.0.19.215 trust score updated: 1.000 → 0.711
+[07:18:43] Node 10.0.4.104 trust score updated: 1.000 → 0.446
+[07:18:43] DOS anomaly detected on node 192.168.5.129 (score=0.9080)
+[07:18:43] Node 192.168.5.129 trust score updated: 1.000 → 0.132
+[07:18:43] DOS anomaly detected on node 10.0.16.15 (score=0.9207)
+[07:18:43] Node 192.168.2.146 trust score updated: 1.000 → 0.739
+[07:18:43] Node 10.0.16.15 trust score updated: 1.000 → 0.228
+[07:18:43] Node 10.0.19.215 trust score updated: 1.000 → 0.770
+[07:18:43] DOS anomaly detected on node 10.0.9.167 (score=0.9261)
+[07:18:43] Node 10.0.4.104 trust score updated: 1.000 → 0.446
+[07:18:43] Node 10.0.9.167 trust score updated: 1.000 → 0.240
+[07:18:43] DOS anomaly detected on node 192.168.7.51 (score=0.9080)
+[07:18:43] Node 192.168.4.105 trust score updated: 1.000 → 0.477
+[07:18:43] Node 192.168.7.51 trust score updated: 1.000 → 0.132
+[07:18:43] Node 192.168.7.63 trust score updated: 1.000 → 0.477
+[07:18:43] DOS anomaly detected on node 10.0.16.15 (score=0.9207)
+[07:18:43] Node 192.168.7.226 trust score updated: 1.000 → 0.492
+[07:18:43] Node 10.0.16.15 trust score updated: 1.000 → 0.228
+[07:18:43] DOS anomaly detected on node 192.168.5.238 (score=0.9746)
+[07:18:43] PROBE anomaly detected on node 192.168.6.98 (score=0.8972)
+[07:18:43] Node 192.168.5.238 trust score updated: 1.000 → 0.080
+[07:18:43] Node 192.168.6.98 trust score updated: 1.000 → 0.201
+[07:18:43] DOS anomaly detected on node 192.168.4.53 (score=0.8972)
+[07:18:43] Node 192.168.3.22 trust score updated: 1.000 → 0.810
+[07:18:43] Node 192.168.4.53 trust score updated: 1.000 → 0.279
+[07:18:43] Node 10.0.9.167 trust score updated: 1.000 → 0.477
+[07:18:43] Node 192.168.6.176 trust score updated: 1.000 → 0.477
+[07:18:43] Node 192.168.7.190 trust score updated: 1.000 → 0.492
+[07:18:55] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[07:18:55] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[07:19:00] Model inference executed on 125,973 records
+[07:19:02] Node 192.168.2.221 trust score updated: 1.000 → 0.446
+[07:19:02] Node 192.168.4.35 trust score updated: 1.000 → 0.524
+[07:19:02] Node 10.0.19.215 trust score updated: 1.000 → 0.787
+[07:19:02] DOS anomaly detected on node 10.0.4.104 (score=0.9080)
+[07:19:02] Node 10.0.4.104 trust score updated: 1.000 → 0.132
+[07:19:02] DOS anomaly detected on node 192.168.8.72 (score=0.9123)
+[07:19:02] Node 192.168.8.72 trust score updated: 1.000 → 0.194
+[07:19:02] DOS anomaly detected on node 192.168.6.143 (score=0.9230)
+[07:19:02] Node 192.168.6.143 trust score updated: 1.000 → 0.228
+[07:19:02] Node 10.0.16.15 trust score updated: 1.000 → 0.477
+[07:19:02] Node 192.168.6.229 trust score updated: 1.000 → 0.477
+[07:19:02] Node 10.0.9.167 trust score updated: 1.000 → 0.492
+[07:19:02] PROBE anomaly detected on node 192.168.4.77 (score=0.9746)
+[07:19:02] Node 192.168.4.77 trust score updated: 1.000 → 0.080
+[07:19:11] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[07:20:16] SYSTEM: PDF security report generated
+[07:21:33] Model inference executed on 125,973 records
+[07:21:36] Node 192.168.2.221 trust score updated: 1.000 → 0.446
+[07:21:36] Node 192.168.4.35 trust score updated: 1.000 → 0.524
+[07:21:36] Node 10.0.19.215 trust score updated: 1.000 → 0.787
+[07:21:36] DOS anomaly detected on node 10.0.4.104 (score=0.9080)
+[07:21:36] Node 10.0.4.104 trust score updated: 1.000 → 0.132
+[07:21:36] DOS anomaly detected on node 192.168.8.72 (score=0.9123)
+[07:21:36] Node 192.168.8.72 trust score updated: 1.000 → 0.194
+[07:21:36] DOS anomaly detected on node 192.168.6.143 (score=0.9230)
+[07:21:36] Node 192.168.6.143 trust score updated: 1.000 → 0.228
+[07:21:36] Node 10.0.16.15 trust score updated: 1.000 → 0.477
+[07:21:36] Node 192.168.6.229 trust score updated: 1.000 → 0.477
+[07:21:36] Node 10.0.9.167 trust score updated: 1.000 → 0.492
+[07:21:36] PROBE anomaly detected on node 192.168.4.77 (score=0.9746)
+[07:21:36] Node 192.168.4.77 trust score updated: 1.000 → 0.080
+[07:21:42] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[07:22:13] SYSTEM: PDF security report generated
+[07:26:20] Model inference executed on 125,973 records
+[07:26:23] Node 192.168.2.221 trust score updated: 1.000 → 0.446
+[07:26:23] Node 192.168.4.35 trust score updated: 1.000 → 0.524
+[07:26:23] Node 10.0.19.215 trust score updated: 1.000 → 0.787
+[07:26:23] DOS anomaly detected on node 10.0.4.104 (score=0.9080)
+[07:26:23] Node 10.0.4.104 trust score updated: 1.000 → 0.132
+[07:26:23] DOS anomaly detected on node 192.168.8.72 (score=0.9123)
+[07:26:23] Node 192.168.8.72 trust score updated: 1.000 → 0.194
+[07:26:23] DOS anomaly detected on node 192.168.6.143 (score=0.9230)
+[07:26:23] Node 192.168.6.143 trust score updated: 1.000 → 0.228
+[07:26:23] Node 10.0.16.15 trust score updated: 1.000 → 0.477
+[07:26:23] Node 192.168.6.229 trust score updated: 1.000 → 0.477
+[07:26:23] Node 10.0.9.167 trust score updated: 1.000 → 0.492
+[07:26:23] PROBE anomaly detected on node 192.168.4.77 (score=0.9746)
+[07:26:23] Node 192.168.4.77 trust score updated: 1.000 → 0.080
+[07:26:32] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[07:26:47] SYSTEM: PDF security report generated
+[07:29:57] SYSTEM: PDF security report generated
+[07:32:09] SYSTEM: PDF security report generated
+[07:32:21] SYSTEM: PDF security report generated
+[07:32:48] SYSTEM: PDF security report generated
+[07:32:51] SYSTEM: PDF security report generated
+[07:36:17] Model inference executed on 125,973 records
+[07:36:27] Node 192.168.2.221 trust score updated: 1.000 → 0.446
+[07:36:27] Node 192.168.4.35 trust score updated: 1.000 → 0.524
+[07:36:27] Node 10.0.19.215 trust score updated: 1.000 → 0.787
+[07:36:27] DOS anomaly detected on node 10.0.4.104 (score=0.9080)
+[07:36:27] Node 10.0.4.104 trust score updated: 1.000 → 0.132
+[07:36:27] DOS anomaly detected on node 192.168.8.72 (score=0.9123)
+[07:36:27] Node 192.168.8.72 trust score updated: 1.000 → 0.194
+[07:36:27] DOS anomaly detected on node 192.168.6.143 (score=0.9230)
+[07:36:27] Node 192.168.6.143 trust score updated: 1.000 → 0.228
+[07:36:27] Node 10.0.16.15 trust score updated: 1.000 → 0.477
+[07:36:27] Node 192.168.6.229 trust score updated: 1.000 → 0.477
+[07:36:27] Node 10.0.9.167 trust score updated: 1.000 → 0.492
+[07:36:27] PROBE anomaly detected on node 192.168.4.77 (score=0.9746)
+[07:36:27] Node 192.168.4.77 trust score updated: 1.000 → 0.080
+[07:36:43] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[07:37:08] SYSTEM: PDF security report generated
+[07:37:27] SYSTEM: PDF security report generated
+[07:37:36] SYSTEM: PDF security report generated
+[07:38:34] SYSTEM: PDF security report generated
+[07:49:21] Model inference executed on 125,973 records
+[07:49:22] Model inference executed on 125,973 records
+[07:49:31] Node 192.168.2.221 trust score updated: 1.000 → 0.446
+[07:49:31] Node 192.168.4.35 trust score updated: 1.000 → 0.524
+[07:49:31] Node 10.0.19.215 trust score updated: 1.000 → 0.787
+[07:49:31] DOS anomaly detected on node 10.0.4.104 (score=0.9080)
+[07:49:31] Node 10.0.4.104 trust score updated: 1.000 → 0.132
+[07:49:31] DOS anomaly detected on node 192.168.8.72 (score=0.9123)
+[07:49:31] Node 192.168.8.72 trust score updated: 1.000 → 0.194
+[07:49:31] DOS anomaly detected on node 192.168.6.143 (score=0.9230)
+[07:49:31] Node 192.168.6.143 trust score updated: 1.000 → 0.228
+[07:49:31] Node 10.0.16.15 trust score updated: 1.000 → 0.477
+[07:49:31] Node 192.168.6.229 trust score updated: 1.000 → 0.477
+[07:49:31] Node 10.0.9.167 trust score updated: 1.000 → 0.492
+[07:49:31] PROBE anomaly detected on node 192.168.4.77 (score=0.9746)
+[07:49:31] Node 192.168.4.77 trust score updated: 1.000 → 0.080
+[07:49:32] Node 10.0.19.215 trust score updated: 1.000 → 0.787
+[07:49:32] Node 192.168.2.203 trust score updated: 1.000 → 0.613
+[07:49:32] Node 192.168.2.166 trust score updated: 1.000 → 0.446
+[07:49:32] DOS anomaly detected on node 192.168.5.231 (score=0.9080)
+[07:49:32] Node 192.168.5.231 trust score updated: 1.000 → 0.132
+[07:49:32] DOS anomaly detected on node 192.168.7.118 (score=0.9207)
+[07:49:32] Node 192.168.7.118 trust score updated: 1.000 → 0.228
+[07:49:32] DOS anomaly detected on node 10.0.16.15 (score=0.8972)
+[07:49:32] Node 10.0.16.15 trust score updated: 1.000 → 0.279
+[07:49:32] Node 192.168.7.106 trust score updated: 1.000 → 0.477
+[07:49:32] Node 10.0.9.167 trust score updated: 1.000 → 0.477
+[07:49:32] Node 192.168.9.8 trust score updated: 1.000 → 0.492
+[07:49:32] DOS anomaly detected on node 10.0.9.90 (score=0.9746)
+[07:49:32] Node 10.0.9.90 trust score updated: 1.000 → 0.080
+[07:49:42] Model inference executed on 125,973 records
+[07:49:42] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[07:49:42] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[07:49:45] Node 192.168.2.221 trust score updated: 1.000 → 0.446
+[07:49:45] Node 192.168.4.35 trust score updated: 1.000 → 0.524
+[07:49:45] Node 10.0.19.215 trust score updated: 1.000 → 0.787
+[07:49:45] DOS anomaly detected on node 10.0.4.104 (score=0.9080)
+[07:49:45] Node 10.0.4.104 trust score updated: 1.000 → 0.132
+[07:49:45] DOS anomaly detected on node 192.168.8.72 (score=0.9123)
+[07:49:45] Node 192.168.8.72 trust score updated: 1.000 → 0.194
+[07:49:45] DOS anomaly detected on node 192.168.6.143 (score=0.9230)
+[07:49:45] Node 192.168.6.143 trust score updated: 1.000 → 0.228
+[07:49:45] Node 10.0.16.15 trust score updated: 1.000 → 0.477
+[07:49:45] Node 192.168.6.229 trust score updated: 1.000 → 0.477
+[07:49:45] Node 10.0.9.167 trust score updated: 1.000 → 0.492
+[07:49:45] PROBE anomaly detected on node 192.168.4.77 (score=0.9746)
+[07:49:45] Node 192.168.4.77 trust score updated: 1.000 → 0.080
+[07:49:51] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[07:51:42] Model inference executed on 125,973 records
+[07:51:51] Node 192.168.2.221 trust score updated: 1.000 → 0.446
+[07:51:51] Node 192.168.4.35 trust score updated: 1.000 → 0.524
+[07:51:51] Node 10.0.19.215 trust score updated: 1.000 → 0.787
+[07:51:51] DOS anomaly detected on node 10.0.4.104 (score=0.9080)
+[07:51:51] Node 10.0.4.104 trust score updated: 1.000 → 0.132
+[07:51:51] DOS anomaly detected on node 192.168.8.72 (score=0.9123)
+[07:51:51] Node 192.168.8.72 trust score updated: 1.000 → 0.194
+[07:51:51] DOS anomaly detected on node 192.168.6.143 (score=0.9230)
+[07:51:51] Node 192.168.6.143 trust score updated: 1.000 → 0.228
+[07:51:51] Node 10.0.16.15 trust score updated: 1.000 → 0.477
+[07:51:51] Node 192.168.6.229 trust score updated: 1.000 → 0.477
+[07:51:51] Node 10.0.9.167 trust score updated: 1.000 → 0.492
+[07:51:52] PROBE anomaly detected on node 192.168.4.77 (score=0.9746)
+[07:51:52] Node 192.168.4.77 trust score updated: 1.000 → 0.080
+[07:52:08] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[08:03:12] Model inference executed on 125,973 records
+[08:03:20] Node 192.168.2.221 trust score updated: 1.000 → 0.446
+[08:03:20] Node 192.168.4.35 trust score updated: 1.000 → 0.524
+[08:03:20] Node 10.0.19.215 trust score updated: 1.000 → 0.787
+[08:03:20] DOS anomaly detected on node 10.0.4.104 (score=0.9080)
+[08:03:20] Node 10.0.4.104 trust score updated: 1.000 → 0.132
+[08:03:20] DOS anomaly detected on node 192.168.8.72 (score=0.9123)
+[08:03:20] Node 192.168.8.72 trust score updated: 1.000 → 0.194
+[08:03:20] DOS anomaly detected on node 192.168.6.143 (score=0.9230)
+[08:03:20] Node 192.168.6.143 trust score updated: 1.000 → 0.228
+[08:03:20] Node 10.0.16.15 trust score updated: 1.000 → 0.477
+[08:03:20] Node 192.168.6.229 trust score updated: 1.000 → 0.477
+[08:03:20] Node 10.0.9.167 trust score updated: 1.000 → 0.492
+[08:03:20] PROBE anomaly detected on node 192.168.4.77 (score=0.9746)
+[08:03:20] Node 192.168.4.77 trust score updated: 1.000 → 0.080
+[08:03:37] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[08:06:11] Model inference executed on 125,973 records
+[08:06:17] Node 192.168.2.221 trust score updated: 1.000 → 0.446
+[08:06:17] Node 192.168.4.35 trust score updated: 1.000 → 0.524
+[08:06:17] Node 10.0.19.215 trust score updated: 1.000 → 0.787
+[08:06:17] DOS anomaly detected on node 10.0.4.104 (score=0.9080)
+[08:06:17] Node 10.0.4.104 trust score updated: 1.000 → 0.132
+[08:06:17] DOS anomaly detected on node 192.168.8.72 (score=0.9123)
+[08:06:17] Node 192.168.8.72 trust score updated: 1.000 → 0.194
+[08:06:17] DOS anomaly detected on node 192.168.6.143 (score=0.9230)
+[08:06:17] Node 192.168.6.143 trust score updated: 1.000 → 0.228
+[08:06:17] Node 10.0.16.15 trust score updated: 1.000 → 0.477
+[08:06:17] Node 192.168.6.229 trust score updated: 1.000 → 0.477
+[08:06:17] Node 10.0.9.167 trust score updated: 1.000 → 0.492
+[08:06:17] PROBE anomaly detected on node 192.168.4.77 (score=0.9746)
+[08:06:17] Node 192.168.4.77 trust score updated: 1.000 → 0.080
+[08:06:31] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[08:09:28] SYSTEM: PDF security report generated
+[08:52:31] Model inference executed on 125,973 records
+[08:52:34] Node 192.168.2.221 trust score updated: 1.000 → 0.446
+[08:52:34] Node 192.168.4.35 trust score updated: 1.000 → 0.524
+[08:52:34] Node 10.0.19.215 trust score updated: 1.000 → 0.787
+[08:52:34] DOS anomaly detected on node 10.0.4.104 (score=0.9080)
+[08:52:34] Node 10.0.4.104 trust score updated: 1.000 → 0.132
+[08:52:34] DOS anomaly detected on node 192.168.8.72 (score=0.9123)
+[08:52:34] Node 192.168.8.72 trust score updated: 1.000 → 0.194
+[08:52:34] DOS anomaly detected on node 192.168.6.143 (score=0.9230)
+[08:52:34] Node 192.168.6.143 trust score updated: 1.000 → 0.228
+[08:52:34] Node 10.0.16.15 trust score updated: 1.000 → 0.477
+[08:52:34] Node 192.168.6.229 trust score updated: 1.000 → 0.477
+[08:52:34] Node 10.0.9.167 trust score updated: 1.000 → 0.492
+[08:52:34] PROBE anomaly detected on node 192.168.4.77 (score=0.9746)
+[08:52:34] Node 192.168.4.77 trust score updated: 1.000 → 0.080
+[08:52:42] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[09:43:38] SYSTEM: PDF security report generated
+[09:46:46] SYSTEM: PDF security report generated
+[09:46:51] SYSTEM: Settings updated — anomaly=0.5, red=0.3, amber=0.6
+[09:46:55] SYSTEM: PDF security report generated
+[09:47:07] SYSTEM: Settings updated — anomaly=0.5, red=0.3, amber=0.6
+[09:47:09] SYSTEM: Settings updated — anomaly=0.5, red=0.3, amber=0.6
+[09:47:12] SYSTEM: Settings updated — anomaly=0.5, red=0.3, amber=0.6
+[09:47:14] SYSTEM: PDF security report generated
+[09:47:30] SYSTEM: Settings updated — anomaly=0.5, red=0.3, amber=0.6
+[09:47:32] SYSTEM: PDF security report generated
+[09:48:35] SYSTEM: PDF security report generated
+[09:49:36] SYSTEM: PDF security report generated
+[09:50:05] SYSTEM: PDF security report generated
+[09:50:43] SYSTEM: PDF security report generated
+[09:50:48] SYSTEM: PDF security report generated
+[09:50:53] SYSTEM: PDF security report generated
+[09:51:00] SYSTEM: PDF security report generated
+[09:51:01] SYSTEM: Settings updated — anomaly=0.5, red=0.3, amber=0.6
+[09:51:03] SYSTEM: PDF security report generated
+[09:51:15] SYSTEM: PDF security report generated
+[09:51:18] SYSTEM: PDF security report generated
+[09:51:22] SYSTEM: PDF security report generated
+[09:52:07] SYSTEM: PDF security report generated
+[09:54:07] SYSTEM: PDF security report generated
+[09:56:04] SYSTEM: PDF security report generated
+[09:56:23] SYSTEM: PDF security report generated
+[09:56:46] SYSTEM: PDF security report generated
+[10:54:55] Model inference executed on 125,973 records
+[10:55:03] Node 192.168.2.221 trust score updated: 1.000 → 0.446
+[10:55:03] Node 192.168.4.35 trust score updated: 1.000 → 0.524
+[10:55:03] Node 10.0.19.215 trust score updated: 1.000 → 0.787
+[10:55:03] DOS anomaly detected on node 10.0.4.104 (score=0.9080)
+[10:55:03] Node 10.0.4.104 trust score updated: 1.000 → 0.132
+[10:55:03] DOS anomaly detected on node 192.168.8.72 (score=0.9123)
+[10:55:03] Node 192.168.8.72 trust score updated: 1.000 → 0.194
+[10:55:03] DOS anomaly detected on node 192.168.6.143 (score=0.9230)
+[10:55:03] Node 192.168.6.143 trust score updated: 1.000 → 0.228
+[10:55:03] Node 10.0.16.15 trust score updated: 1.000 → 0.477
+[10:55:03] Node 192.168.6.229 trust score updated: 1.000 → 0.477
+[10:55:03] Node 10.0.9.167 trust score updated: 1.000 → 0.492
+[10:55:03] PROBE anomaly detected on node 192.168.4.77 (score=0.9746)
+[10:55:03] Node 192.168.4.77 trust score updated: 1.000 → 0.080
+[10:55:19] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
+[11:33:10] SYSTEM: PDF security report generated
+[11:34:15] SYSTEM: PDF security report generated
+[11:34:20] SYSTEM: PDF security report generated
+[18:00:00] Model inference executed on 125,973 records
+[18:00:09] Node 192.168.2.221 trust score updated: 1.000 → 0.446
+[18:00:09] Node 192.168.4.35 trust score updated: 1.000 → 0.524
+[18:00:09] Node 10.0.19.215 trust score updated: 1.000 → 0.787
+[18:00:09] DOS anomaly detected on node 10.0.4.104 (score=0.9080)
+[18:00:09] Node 10.0.4.104 trust score updated: 1.000 → 0.132
+[18:00:09] DOS anomaly detected on node 192.168.8.72 (score=0.9123)
+[18:00:09] Node 192.168.8.72 trust score updated: 1.000 → 0.194
+[18:00:09] DOS anomaly detected on node 192.168.6.143 (score=0.9230)
+[18:00:09] Node 192.168.6.143 trust score updated: 1.000 → 0.228
+[18:00:09] Node 10.0.16.15 trust score updated: 1.000 → 0.477
+[18:00:09] Node 192.168.6.229 trust score updated: 1.000 → 0.477
+[18:00:09] Node 10.0.9.167 trust score updated: 1.000 → 0.492
+[18:00:09] PROBE anomaly detected on node 192.168.4.77 (score=0.9746)
+[18:00:09] Node 192.168.4.77 trust score updated: 1.000 → 0.080
+[18:00:25] SYSTEM: Pipeline complete — 125,973 records, 58,621 attacks
