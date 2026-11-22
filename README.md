@@ -1,4 +1,4 @@
-# 🛡️ NEXUS-IDS: Trust-Intelligence Driven Network Intrusion Detection System
+# NEXUS-IDS: Trust-Intelligence Driven Network Intrusion Detection System
 
 [![Python Version](https://img.shields.io/badge/Python-3.10%20%7C%203.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.2.0-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
@@ -14,7 +14,7 @@
 
 ---
 
-## 📌 Table of Contents
+##  Table of Contents
 - [Executive Overview](#-executive-overview)
 - [Key Features](#-key-features)
 - [System Architecture](#-system-architecture)
@@ -33,7 +33,7 @@
 
 ---
 
-## 🛡️ Executive Overview
+##  Executive Overview
 
 Modern enterprise networks face stealthy, polymorphic, and zero-day threats that bypass conventional rule-based signature detection. **NEXUS-IDS** provides defense-in-depth by synthesizing statistical machine learning, deep representation learning, and topological graph intelligence into a single unified SOC decision engine.
 
@@ -41,7 +41,7 @@ Instead of evaluating connections in complete isolation, NEXUS-IDS correlates co
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 - **Soft-Voting Ensemble Classifier**: High-precision multi-class classification combining Random Forest (200 estimators) and XGBoost (200 estimators).
 - **Dual-Model Anomaly Detection**: PyTorch symmetric deep Autoencoder (`41 → 64 → 32 → 16 → 32 → 64 → 41`) coupled with an Isolation Forest for zero-day discovery.
@@ -53,7 +53,7 @@ Instead of evaluating connections in complete isolation, NEXUS-IDS correlates co
 
 ---
 
-## 🏛️ System Architecture
+##  System Architecture
 
 ```text
                                   Incoming Network Traffic
@@ -91,7 +91,7 @@ Instead of evaluating connections in complete isolation, NEXUS-IDS correlates co
 
 ---
 
-## 🔬 Core Detection & Intelligence Layers
+##  Core Detection & Intelligence Layers
 
 ### 1. Multi-Class Ensemble Detection Engine
 - Combines `RandomForestClassifier` and `XGBClassifier` through a soft-voting ensemble (`VotingClassifier`).
@@ -117,9 +117,9 @@ Where:
 
 | Trust Score | Status | Description | SOC Recommended Action |
 | :---: | :---: | :---: | :--- |
-| **$\ge 0.60$** | 🟢 **GREEN** | **Trusted Node** | Normal operations; routine logging. |
-| **$0.30 - 0.59$** | 🟡 **AMBER** | **Suspicious Node** | Elevated telemetry; rate-limiting. |
-| **$< 0.30$** | 🔴 **RED** | **Compromised Node** | Immediate quarantine; block ingress/egress. |
+| **$\ge 0.60$** | **GREEN** | **Trusted Node** | Normal operations; routine logging. |
+| **$0.30 - 0.59$** |  **AMBER** | **Suspicious Node** | Elevated telemetry; rate-limiting. |
+| **$< 0.30$** | **RED** | **Compromised Node** | Immediate quarantine; block ingress/egress. |
 
 ### 4. SHAP Explainability & 4-Rule Verdict Engine
 Uses `shap.TreeExplainer` on the Random Forest ensemble component to compute local Shapley values, highlighting the exact features pushing the model towards an attack classification.
@@ -132,7 +132,7 @@ The **Verdict Engine** deterministically maps multi-model signals into operation
 
 ---
 
-## 🎯 Attack Classification Taxonomy
+## Attack Classification Taxonomy
 
 NEXUS-IDS standardizes all NSL-KDD attack signatures into 5 canonical security classes:
 
@@ -146,7 +146,7 @@ NEXUS-IDS standardizes all NSL-KDD attack signatures into 5 canonical security c
 
 ---
 
-## 🖥️ SOC Command Center & Dashboard
+##  SOC Command Center & Dashboard
 
 The Streamlit-powered SOC interface is divided into modular operational workspaces:
 
@@ -161,7 +161,7 @@ The Streamlit-powered SOC interface is divided into modular operational workspac
 
 ---
 
-## 📡 REST API Specifications
+##  REST API Specifications
 
 NEXUS-IDS exposes an enterprise FastAPI service for inline microservice integration.
 
@@ -205,7 +205,7 @@ System and model artifact status check.
 
 ---
 
-## 📁 Project Directory Structure
+##  Project Directory Structure
 
 ```text
 NEXUS-IDS/
@@ -281,7 +281,7 @@ NEXUS-IDS/
 
 ---
 
-## ⚡ Installation & Quickstart
+##  Installation & Quickstart
 
 ### Prerequisites
 - **Python**: 3.10, 3.11, or 3.12
@@ -325,7 +325,7 @@ python api/server.py
 
 ---
 
-## 🧪 CLI & Pipeline Execution
+## CLI & Pipeline Execution
 
 Every component in `nexus_ids/src/` and `nexus_ids/demo/` can be executed independently from the command line:
 
@@ -356,7 +356,7 @@ python src/explainability.py
 
 ---
 
-## 📄 License & Acknowledgments
+##  License & Acknowledgments
 
 - **Dataset**: NSL-KDD dataset courtesy of the Canadian Institute for Cybersecurity (CIC), University of New Brunswick.
 - **License**: Released under the [MIT License](LICENSE).
